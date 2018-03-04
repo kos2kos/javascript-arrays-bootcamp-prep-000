@@ -12,7 +12,7 @@ function addElementToEndOfArray(a,n){
 }
 function destructivelyAddElementToEndOfArray(a,n){
   a = [...a,n]
-  return a
+  return [...a,n]
 }
 
 function accessElementInArray(a,n){
