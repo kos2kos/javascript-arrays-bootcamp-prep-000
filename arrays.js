@@ -19,6 +19,6 @@ function accessElementInArray(a,n){
   return a[n]
 }
 function destructivelyRemoveElementFromBeginningOfArray(a){
-  b = a.shift()
+  a.shift()
   return a
 }
